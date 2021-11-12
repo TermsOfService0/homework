@@ -4,6 +4,8 @@
 <head>
     <!--A stílusokat egy külső fájlban adjuk meg!-->
     <link rel="stylesheet" href="stilusok.css">
+    <meta charset="UTF-8">
+    <title>Processzorok</title>
 </head>
 
 <!--Használja gyakran az Alt+Shift+F kombinációt!-->
@@ -17,16 +19,16 @@
                 <th colspan="2"><a href="https://www.amd.com/en/products/specifications/processors">AMD</a></th>
                 <th colspan="2"><a href="https://ark.intel.com/content/www/us/en/ark.html#@PanelLabel122139">INTEL</a>
                 </th>
+                <tr>
+                    <th></th>
+                    <th>AMD Ryzen™ 5 2600</th>
+                    <th>AMD Ryzen™ 5 3600</th>
+                    <th>Intel® Core™ i5-8400</th>
+                    <th>Intel® Core™ i5-9400</th>
+                </tr>
             </tr>
         </thead>
         <tbody>
-            <tr>
-                <th></th>
-                <th>AMD Ryzen&#153 5 2600</th>
-                <th>AMD Ryzen&#153 5 3600</th>
-                <th>Intel<sup>&#174</sup> Core&#153 i5-8400</th>
-                <th>Intel<sup>&#174</sup> Core&#153 i5-9400</th>
-            </tr>
             <tr>
                 <th>Magok száma</th>
                 <td colspan="4">6 mag</td>
@@ -50,31 +52,31 @@
                 <td colspan="2">14nm</td>
             </tr>
             <tr>
-                <th><u>TDP</u></th>
+                <th><abbr title="Thermal Design Power">TDP</abbr></th>
                 <td colspan="4">65W</td>
             </tr>
             <tr>
                 <th></th>
-                <td><img title="AMD Ryzen&#153 5 2600" height="100px" src="Images/AMD-Ryzen-5-2600.jpg" alt=""></td>
-                <td><img title="AMD Ryzen&#153 5 3600" height="100px" src="Images/AMD-Ryzen-5-3600.webp" alt=""></td>
-                <td><img title="Intel&#174 Core&#153 i5-8400" height="100px" src="Images/Intel-Core-i5-8400.png" alt=""></td>
-                <td><img title="Intel&#174 Core&#153 i5-9400" height="100px" src="Images/Intel-Core-i5-9400.png" alt=""></td>
+                <td><img title="AMD Ryzen™ 5 2600" height="100px" src="Images/AMD-Ryzen-5-2600.jpg" alt=""></td>
+                <td><img title="AMD Ryzen™ 5 3600" height="100px" src="Images/AMD-Ryzen-5-3600.webp" alt=""></td>
+                <td><img title="Intel® Core™ i5-8400" height="100px" src="Images/Intel-Core-i5-8400.png" alt=""></td>
+                <td><img title="Intel® Core™ i5-9400" height="100px" src="Images/Intel-Core-i5-9400.png" alt=""></td>
             </tr>
             <tr>
                 <th>Ár</th>
                 <td>47.320Ft - 55.390Ft</td>
-                <td>79.990Ft -87.782Ft</td>
-                <td>58.970Ft -60.140Ft</td>
-                <td>58.090Ft -61.490Ft</td>
+                <td>79.990Ft - 87.782Ft</td>
+                <td>58.970Ft - 60.140Ft</td>
+                <td>58.090Ft - 61.490Ft</td>
             </tr>
         </tbody>
         <tfoot>
             <tr>
-                <th rowspan="2"><img height="30px" width="30px" src="Images/links.png" alt=""></th>
-                <th><a title="AMD Ryzen&#153 5 2600" href="https://www.amd.com/en/products/cpu/amd-ryzen-5-2600#product-specs">Specifikáció</a></th>
-                <th><a title="AMD Ryzen&#153 5 3600" href="https://www.amd.com/en/products/cpu/amd-ryzen-5-3600#product-specs">Specifikáció</a></th>
-                <th><a title="Intel&#174 Core&#153 i5-8400" href="https://ark.intel.com/content/www/us/en/ark/products/126687/intel-core-i5-8400-processor-9m-cache-up-to-4-00-ghz.html">Specifikáció</a></th>
-                <th><a title="Intel&#174 Core&#153 i5-9400" href="https://ark.intel.com/content/www/us/en/ark/products/134898/intel-core-i5-9400-processor-9m-cache-up-to-4-10-ghz.html">Specifikáció</a></th>
+                <th rowspan="2"><img height="40px" width="40px" src="Images/links.png" alt=""></th>
+                <th><a title="AMD Ryzen™ 5 2600" href="https://www.amd.com/en/products/cpu/amd-ryzen-5-2600#product-specs">Specifikáció</a></th>
+                <th><a title="AMD Ryzen™ 5 3600" href="https://www.amd.com/en/products/cpu/amd-ryzen-5-3600#product-specs">Specifikáció</a></th>
+                <th><a title="Intel® Core™ i5-8400" href="https://ark.intel.com/content/www/us/en/ark/products/126687/intel-core-i5-8400-processor-9m-cache-up-to-4-00-ghz.html">Specifikáció</a></th>
+                <th><a title="Intel® Core™ i5-9400" href="https://ark.intel.com/content/www/us/en/ark/products/134898/intel-core-i5-9400-processor-9m-cache-up-to-4-10-ghz.html">Specifikáció</a></th>
             </tr>
             <tr>
                 <th><a title="13 207 pont" href="https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+5+2600&id=3243">Sebesség teszt</a></th>
@@ -87,9 +89,10 @@
 
     <section>
         <h1>Fogalmak és új ismeretek</h1>
+        <hr>
         <h3>WebP</h3>
         <p>
-            A WebP (ejtsd: „veppi”) egy új, veszteséges és veszteségmentes tömörítést alkalmazó képformátum. A Google
+            A <strong>WebP</strong> <i>(ejtsd: „veppi”)</i> egy új, veszteséges és veszteségmentes tömörítést alkalmazó képformátum. A Google
             fejlesztette ki, hogy csökkentse a web hálózati forgalmának jelenleg (2010) mintegy 65%-át adó képfájlok
             átlagos méretét, ezzel is gyorsítva a weboldalak betöltődését. A Google tesztjei szerint amit a weben
             található egymillió, véletlenszerűen kiválasztott képfájl (többnyire JPG, néhány PNG és GIF) tömörítésével
@@ -112,9 +115,10 @@
         <p>
             Forrás: <a href="https://hu.wikipedia.org/wiki/WebP">Wikipédia</a>
         </p>
+        <hr>
         <h3>TDP</h3>
         <p>
-            Then Thermal design power (TDP), sometimes called thermal design point, is the maximum amount of heat
+            The <strong>Thermal design power</strong> (TDP), sometimes called thermal design point, is the maximum amount of heat
             generated by a computer chip or component (often a CPU, GPU or system on a chip) that the cooling system in
             a computer is designed to dissipate under any workload.
         </p>
@@ -126,7 +130,7 @@
             exceeding its thermal envelope, or requiring a cooling system for the maximum theoretical power (which would
             cost more but in favor of extra headroom for processing power).
             The dynamic power consumed by a switching circuit is approximately proportional to the square of the
-            voltage: P=CV <sup>2</sup> f
+            voltage: P=CV<sup>2</sup>f
         </p>
         <ul>
             <li>C - capacitance</li>
